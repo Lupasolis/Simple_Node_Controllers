@@ -1,0 +1,16 @@
+{
+  "name": "SimpleServer",
+  "version": "0.0.0",
+  "description": "A very simple node web server app for example",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "pretest": "jshint ./src",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Cody Van De Mark",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.8.0"
+  }
+}
